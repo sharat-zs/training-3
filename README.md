@@ -4,7 +4,7 @@
 sudo snap set system proxy.http=$http_proxy
 sudo snap set system proxy.https=$https_proxy
 ```
-- Install node 14
+- Install node lts
 ```
 sudo snap install node --classic
 ```
