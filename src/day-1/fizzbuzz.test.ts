@@ -9,8 +9,8 @@ describe('fizzbuzz', () => {
     expect(fizzbuzz(5)).toEqual('buzz')
   })
 
-  it.only('should return fizzbuzz', () => {
-    expect(fizzbuzz(15)).toEqual('fizzbuzzz')
+  it('should return fizzbuzz', () => {
+    expect(fizzbuzz(15)).toEqual('fizzbuzz')
   })
 
   test('should return undefined', () => {

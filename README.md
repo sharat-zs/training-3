@@ -26,3 +26,6 @@ yarn init -y
 - yarn add -D jest@26
 - yarn add -D @types/jest
 - yarn add -D ts-jest@26  
+
+# Running tests
+- yarn test
