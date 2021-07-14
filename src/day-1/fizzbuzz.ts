@@ -14,8 +14,3 @@ export default function fizzBuzz(arg: number) {
   if (arg % 3 === 0) return FIZZ
   if (arg % 5 === 0) return BUZZ
 }
-
-console.log(fizzBuzz(15))
-console.log(fizzBuzz(3))
-console.log(fizzBuzz(5))
-console.log(fizzBuzz(7))
