@@ -1,21 +1,21 @@
 export let x = 5
 const y = 10
 x = 10
-x = 10.0000000
-let name = 'harry'
-let bool = true
-let missing = undefined
-let nullish = null
+x = 10.0
+const name = 'harry'
+const bool = true
+const missing = undefined
+const nullish = null
 // console.log(typeof name)
 // console.log(typeof bool)
 // console.log(typeof missing)
 // console.log(typeof nullish)
 
 const obj = {
-  name: "hello"
+  name: 'hello'
 }
 
-let prop = 'name'
+const prop = 'name'
 // console.log(obj)
 // console.log(obj.name)
 
@@ -64,8 +64,8 @@ arr.length
 // const result = arr.reduce((prev, current) => prev + current, 0)
 // console.log(result)
 
-let str1 = '1'
-let num1 = 1
+const str1 = '1'
+const num1 = 1
 if ((str1 as any) === (num1 as any)) {
   console.log('are equal')
 } else {
@@ -77,11 +77,11 @@ if ('') {
 } else {
   console.log('is falsy')
 }
-//truthy ->1,-1, {}, [], 'abc', true
-//falsy ->0, false, null, undefined, ''
+// truthy ->1,-1, {}, [], 'abc', true
+// falsy ->0, false, null, undefined, ''
 
 if (!x) {
-  //do spmething
+  // do spmething
 }
 
 x === 5 ? console.log('is 5') : console.log('not 5')
@@ -98,4 +98,3 @@ function initX1(x?: number[]) {
 
 console.log(initX1(undefined))
 console.log(initX1([0]))
-

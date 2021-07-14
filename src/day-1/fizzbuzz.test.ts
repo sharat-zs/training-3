@@ -16,5 +16,4 @@ describe('fizzbuzz', () => {
   test('should return undefined', () => {
     expect(fizzbuzz(13)).toBeUndefined()
   })
-
 })

@@ -27,5 +27,9 @@ yarn init -y
 - yarn add -D @types/jest
 - yarn add -D ts-jest@26  
 
-# Running tests
+### Running tests
 - yarn test
+- For seeing coverage run ```yarn test --coverage```
+
+## Setting up eslint
+- yarn add -D eslint
