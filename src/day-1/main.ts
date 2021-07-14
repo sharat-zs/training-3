@@ -93,8 +93,9 @@ function initX(x: number | undefined) {
 }
 
 function initX1(x?: number[]) {
- console.log(x?.length)
+  console.log(x?.length)
 }
 
 console.log(initX1(undefined))
 console.log(initX1([0]))
+
