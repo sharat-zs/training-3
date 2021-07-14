@@ -6,9 +6,13 @@
   "scripts": {
     "build": "tsc -b tsconfig.json",
     "start": "node dist/src/day-1/main.js",
-    "dev": "ts-node src/day-1/main.ts"
+    "dev": "ts-node src/day-1/main.ts",
+    "test": "jest"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "26",
+    "ts-jest": "26",
     "ts-node": "^10.1.0",
     "typescript": "^4.3.5"
   }

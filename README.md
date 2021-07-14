@@ -21,3 +21,8 @@ cd training
 yarn init -y
 ```
 - Copy tsconfig from here
+
+## Setting up jest for tests
+- yarn add -D jest@26
+- yarn add -D @types/jest
+- yarn add -D ts-jest@26  

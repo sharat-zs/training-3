@@ -9,7 +9,7 @@ const FIZZ_BUZZ = `${FIZZ}${BUZZ}`
  * return 'fizzbuzz' when divisible by 15
  * else return undefined 
  */
-function fizzBuzz(arg: number) {
+export default function fizzBuzz(arg: number) {
   if (arg % 15 === 0) return FIZZ_BUZZ
   if (arg % 3 === 0) return FIZZ
   if (arg % 5 === 0) return BUZZ

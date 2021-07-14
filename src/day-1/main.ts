@@ -14,6 +14,7 @@ let nullish = null
 const obj = {
   name: "hello"
 }
+
 let prop = 'name'
 // console.log(obj)
 // console.log(obj.name)
