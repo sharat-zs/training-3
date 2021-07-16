@@ -1,6 +1,7 @@
 import fizzbuzz from './fizzbuzz'
 
 describe('fizzbuzz', () => {
+  setTimeout(() => console.log('test'), 1000000)
   it('should return fizz', () => {
     expect(fizzbuzz(3)).toEqual('fizz')
   })
