@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "Debug Fizz",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\src\\day-1\\index.ts",
+      "program": "${workspaceFolder}\\src\\day-2\\interface.ts",
       "runtimeArgs": ["--nolazy", "-r", "ts-node/register"]
     },
     {
